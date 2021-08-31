@@ -1,0 +1,15 @@
+{
+    "version":"0",
+    "id":"12345678-1234-1234-1234-1234578901234",
+    "detail-type":"Scheduled Event",
+    "source":"aws.events",
+    "account":"123456789012",
+    "time":"2021-08-31T02:29:55Z",
+    "region":"ap-northeast-2",
+    "resources":[
+       "arn:aws:events:ap-northeast-2:123456789012:rule/schedule-test-event"
+    ],
+    "detail":{
+       
+    }
+ }
