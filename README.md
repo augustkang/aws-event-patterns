@@ -1,3 +1,5 @@
 # AWS event patterns
 
-Event pattern repository
+AWS Event pattern repository.
+
+CloudWatch Event pattern and corresponding CloudTrail API event(if needed).

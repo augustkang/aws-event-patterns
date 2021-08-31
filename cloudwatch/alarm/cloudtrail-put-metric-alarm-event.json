@@ -1,0 +1,83 @@
+{
+  "version":"0",
+  "id":"1234567-1234-1234-1234-12345678901234",
+  "detail-type":"AWS API Call via CloudTrail",
+  "source":"aws.monitoring",
+  "account":"123456789012",
+  "time":"2021-08-31T06:01:46Z",
+  "region":"ap-northeast-2",
+  "resources":[
+     
+  ],
+  "detail":{
+     "eventVersion":"1.08",
+     "userIdentity":{
+        "type":"AssumedRole",
+        "principalId":"ARQA1234567890ABCDEFG:august",
+        "arn":"arn:aws:sts::123456789012:assumed-role/august/august",
+        "accountId":"123456789012",
+        "accessKeyId":"ASIA1234567890ABCD",
+        "sessionContext":{
+           "sessionIssuer":{
+              "type":"Role",
+              "principalId":"ARQA1234567890ABCDEFG",
+              "arn":"arn:aws:iam::123456789012:role/august",
+              "accountId":"123456789012",
+              "userName":"august"
+           },
+           "webIdFederationData":{
+              
+           },
+           "attributes":{
+              "creationDate":"2021-08-31T05:40:49Z",
+              "mfaAuthenticated":"false"
+           }
+        }
+     },
+     "eventTime":"2021-08-31T06:01:46Z",
+     "eventSource":"monitoring.amazonaws.com",
+     "eventName":"PutMetricAlarm",
+     "awsRegion":"ap-northeast-2",
+     "sourceIPAddress":"123.123.123.123",
+     "userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36",
+     "requestParameters":{
+        "threshold":10.0,
+        "oKActions":[
+           
+        ],
+        "period":300,
+        "datapointsToAlarm":1,
+        "metricName":"CPUUtilization",
+        "dimensions":[
+           {
+              "value":"i-12345678901234567",
+              "name":"InstanceId"
+           }
+        ],
+        "evaluationPeriods":1,
+        "actionsEnabled":true,
+        "comparisonOperator":"GreaterThanThreshold",
+        "namespace":"AWS/EC2",
+        "alarmName":"test-alarm",
+        "alarmActions":[
+           
+        ],
+        "insufficientDataActions":[
+           
+        ],
+        "alarmDescription":"",
+        "statistic":"Average",
+        "treatMissingData":"missing"
+     },
+     "responseElements":"None",
+     "requestID":"12345678-1234-1234-1234-123456789012",
+     "eventID":"12345678-1234-1234-1234-123456789012",
+     "readOnly":false,
+     "eventType":"AwsApiCall",
+     "managementEvent":true,
+     "recipientAccountId":"123456789012",
+     "eventCategory":"Management",
+     "sessionCredentialFromConsole":"true"
+  }
+}
+
