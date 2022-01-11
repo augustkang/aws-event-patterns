@@ -1,0 +1,30 @@
+{
+  "source": [
+    "aws.ec2"
+  ],
+  "detail-type": [
+    "AWS API Call via CloudTrail"
+  ],
+  "detail": {
+    "eventSource": [
+      "ec2.amazonaws.com"
+    ],
+    "eventName": [
+      "CreateNetworkInterface"
+    ],
+    "userIdentity": {
+      "sessionContext": {
+        "sessionIssuer": {
+          "userName": [
+            "AWSServiceRoleForAmazonOpenSearchService"
+          ]
+        }
+      }
+    },
+    "requestParameters": {
+      "description": [
+        "ES {YOUR-OPENSEARCH-DOMAIN(CLUSTER)-NAME-HERE}"
+      ]
+    }
+  }
+}
