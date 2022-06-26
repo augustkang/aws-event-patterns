@@ -1,0 +1,52 @@
+{
+    "eventVersion": "1.08",
+    "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "ABCDEFGHIJKLMNOPQRSTU:iamaugustkang@gmail.com",
+        "arn": "arn:aws:sts::123456789012:assumed-role/administrator/iamaugustkang@gmail.com",
+        "accountId": "123456789012",
+        "accessKeyId": "ABCDEFGHIJKLMNOPQRST",
+        "sessionContext": {
+            "sessionIssuer": {
+                "type": "Role",
+                "principalId": "ABCDEFGHIJKLMNOPQRSTU",
+                "arn": "arn:aws:iam::123456789012:role/aws-reserved/sso.amazonaws.com/ap-northeast-2/administrator",
+                "accountId": "123456789012",
+                "userName": "administrator"
+            },
+            "webIdFederationData": {},
+            "attributes": {
+                "creationDate": "2022-06-27T10:00:00Z",
+                "mfaAuthenticated": "false"
+            }
+        },
+        "invokedBy": "servicecatalog.amazonaws.com"
+    },
+    "eventTime": "2022-06-27T10:00:00Z",
+    "eventSource": "controltower.amazonaws.com",
+    "eventName": "CreateManagedAccount",
+    "awsRegion": "ap-northeast-2",
+    "sourceIPAddress": "AWS Internal",
+    "userAgent": "AWS Internal",
+    "requestParameters": {
+        "accountEmail": "HIDDEN_DUE_TO_SECURITY_REASONS",
+        "accountName": "august-test-account",
+        "parentOrganizationalUnitName": "Sandbox (ou-abc1-d2345efg)",
+        "sSOUserEmail": "HIDDEN_DUE_TO_SECURITY_REASONS",
+        "sSOUserFirstName": "HIDDEN_DUE_TO_SECURITY_REASONS",
+        "sSOUserLastName": "HIDDEN_DUE_TO_SECURITY_REASONS",
+        "provisionedProductId": "pp-abcdefg1hi23j",
+        "idempotencyToken": "12345678901-abcdefghijk"
+    },
+    "responseElements": {
+        "createManagedAccountExecutionId": "123456789012-12345678901-abcdefghijk"
+    },
+    "requestID": "abcdefg1-hijk-12o1-as00-123456789012",
+    "eventID": "12345678-abcd-0987-6543-210987654321",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "123456789012",
+    "eventCategory": "Management",
+    "sessionCredentialFromConsole": "true"
+}
