@@ -1,3 +1,5 @@
+# You can refer to the official docs for mor detailed event patterns
+# https://docs.aws.amazon.com/controltower/latest/userguide/lifecycle-events.html
 {
     "eventVersion": "1.08",
     "userIdentity": {
